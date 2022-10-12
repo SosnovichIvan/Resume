@@ -1,0 +1,70 @@
+.about {
+    margin: 0 35px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    white-space: pre-wrap;
+    flex-flow: column;
+}
+
+.about_person {
+    align-self: center;
+    justify-self: center;
+}
+
+.about_skills {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.about_tags {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px 20px;
+    max-width: 30%;
+    flex-flow: row wrap;
+}
+
+.about_tag {
+    padding: 8px 12px;
+    border: 2px solid #272421;
+    border-radius: 48px;
+    background: none;
+    max-height: 40px;
+}
+
+.about_text {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 92px;
+    text-align: center;
+    letter-spacing: -6px;
+    max-width: 35%;
+    line-snap: none;
+}
+
+.about_text__lines {
+    font-size: 32px;
+    text-align: center;
+}
+
+.about_jobs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.about_line {
+    width: 100%;
+}
+
+.about_job {
+
+}
